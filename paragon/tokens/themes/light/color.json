@@ -1,0 +1,25 @@
+{
+  "color": {
+    "$type": "color",
+    "primary": {
+      "base": {
+        "source": "$primary",
+        "actions": {
+          "default": "{color.action.default.primary.base}"
+        },
+        "$value": "#009cd5",
+        "$description": "Basic primary color."
+      }
+    },
+    "secondary": {
+      "base": {
+        "source": "$secondary",
+        "actions": {
+          "default": "{color.action.default.secondary.base}"
+        },
+        "$value": "#28353d",
+        "$description": "Basic secondary color."
+      }
+    }
+  }
+}
